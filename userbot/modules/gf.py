@@ -3,9 +3,9 @@ Available Commands: .gf
 
 Thunderuserbot """
 
-from telethon import events
-
 import asyncio
+from userbot.events import register
+from userbot import CMD_HELP
 
 
 @register(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
