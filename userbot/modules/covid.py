@@ -34,8 +34,5 @@ async def corona(event):
         )
 
 
-CMD_HELP.update({
-    "covid":
-        ".covid <country>"
-        "\nUsage: Get an Updated information about covid-19 data in your country.\n"
-})
+CMD_HELP.update({"covid": ".covid <country>"
+                 "\nUsage: Get an Updated information about covid-19 data in your country.\n"})
