@@ -28,7 +28,7 @@ jikanpy
 lxml
 lyricsgenius
 oauth2client
-pendulum==2.0.5
+pendulum
 Pillow>=6.0.0
 psutil
 psycopg2
