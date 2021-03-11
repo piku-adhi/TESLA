@@ -32,6 +32,7 @@ async def github(event):
             company = result.get("company", None)
             bio = result.get("bio", None)
             created_at = result.get("created_at", "Not Found")
+            avatar_url = result.get("avatar_url", "None")
 
             REPLY = (
                 f"GitHub Info for `{username}`\n"
@@ -40,7 +41,8 @@ async def github(event):
                 f"URL: {url}\n"
                 f"Company: `{company}`\n"
                 f"Created at: `{created_at}`\n"
-                f"More info : [Here](https://api.github.com/users/{username}/events/public)")
+                f"More info : [Here](https://api.github.com/users/{username}/events/public)"
+                f"Avatar URL : {avatar_url} ")
 
             if not result.get("repos_url", None):
                 return await event.edit(REPLY)
