@@ -37,5 +37,5 @@ async def corona(event):
 CMD_HELP.update({
     "covid":
         ".covid <country>"
-        "\nUsage: Get an information about data covid-19 in your country.\n"
+        "\nUsage: Get an Updated information about covid-19 data in your country.\n"
 })

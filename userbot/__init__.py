@@ -35,7 +35,7 @@ LOGS = getLogger(__name__)
 
 if version_info[0] < 3 or version_info[1] < 8:
     LOGS.info(
-        "You MUST have a python version of at least 3.8."
+        "You MUST have a python version of at least 3.9."
         "Multiple features depend on this. Bot quitting."
     )
     quit(1)
@@ -86,7 +86,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN") or None
 
 # Custom (forked) repo URL and BRANCH for updater.
 UPSTREAM_REPO_URL = (os.environ.get("UPSTREAM_REPO_URL")
-                     or "https://github.com/ElytrA8/TESLA.git")
+                     or "https://github.com/MrRobot222/TESLA.git")
 UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH") or "TESLA"
 
 # Console verbose logging
