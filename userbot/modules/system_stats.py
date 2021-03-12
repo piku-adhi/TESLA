@@ -12,7 +12,7 @@ from shutil import which
 from os import remove
 from telethon import version
 
-from userbot import ALIVE_LOGO, ALIVE_NAME, CMD_HELP, UPSTREAM_REPO_BRANCH, bot
+from userbot import ALIVE_LOGO, ALIVE_NAME, CMD_HELP, UPSTREAM_REPO_BRANCH, bot, USERBOT_VERSION
 from userbot.events import register
 
 # ================= CONSTANT =================
@@ -136,6 +136,7 @@ async def amireallyalive(alive):
               "==================== \n"
               f"`Telethon : v{version.__version__} `\n"
               f"`Python : v{python_version()} `\n"
+              f"'Version : {USERBOT_VERSION}'\n"
               "==================== \n"
               f"`Running on Branch ==> {UPSTREAM_REPO_BRANCH} `\n"
               f"Tip:- Type `.help` to know about Modules Information \n")
