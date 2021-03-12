@@ -1,6 +1,6 @@
 <div align="center">TESLA REBORN ©</div>
 
-![LOGO](logo.gif)
+<div align=center><img src="logo.gif" alt="Logo"></div>
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
