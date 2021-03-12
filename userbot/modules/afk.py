@@ -7,7 +7,12 @@ from random import choice, randint
 
 from telethon.events import StopPropagation
 
-from userbot import (AFKREASON, CMD_HELP, BOTLOG, BOTLOG_CHATID, PM_AUTO_BAN, COUNT_MSG, ISAFK, USERS)
+from userbot import (
+    AFKREASON,
+    CMD_HELP,
+    BOTLOG,
+    BOTLOG_CHATID,
+    PM_AUTO_BAN)
 from userbot.events import register
 
 AFKSTR = [
@@ -44,10 +49,8 @@ USER_AFK = {}
 afk_time = None
 afk_start = {}
 
+
 @register(outgoing=True, pattern="^.afk(?: |$)(.*)", disable_errors=True)
-
-
-
 async def set_afk(afk_e):
     """ For .afk command, allows you to inform people that you are afk when they message you """
     afk_e.text
@@ -93,7 +96,7 @@ async def type_afk_is_not_true(notafk):
     AFKREASON = None
     back_alive = datetime.now()
     afk_end = back_alive.replace(microsecond=0)
-    
+
     if ISAFK:
         ISAFK = False
         msg = await notafk.respond("I'm no longer AFK.")
@@ -113,7 +116,6 @@ async def type_afk_is_not_true(notafk):
                     "[" + name0 + "](tg://user?id=" + str(i) + ")" +
                     " sent you " + "`" + str(USERS[i]) + " messages`",
                 )
-        
 
 
 @register(incoming=True, disable_edited=True)
