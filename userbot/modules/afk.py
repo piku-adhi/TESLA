@@ -44,7 +44,7 @@ USER_AFK = {}
 afk_time = None
 afk_start = {}
 
-@register(Outgoing=True, pattern="^.afk(?: |$)(.*)", disable_errors=True)
+@register(outgoing=True, pattern="^.afk(?: |$)(.*)", disable_errors=True)
 
 
 
