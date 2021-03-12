@@ -1,7 +1,7 @@
-<div align="center">𝙿𝚁𝙾𝙹𝙴𝙲𝚃 丅乇丂乚卂 ©</div>
+<div align="center">TESLA REBORN ©</div>
 
-![LOGO](https://telegra.ph/file/7a68593c92c85faa388f9.png)
-[![Build](https://github.com/ElytrA8/TESLA/workflows/FailedChecker/badge.svg?branch=TESLA)](https://github.com/ElytrA8/TESLA/actions "build")
+![LOGO](https://telegra.ph/file/7e7c6aa187a131923d18f.mp4)
+[![Build](https://github.com/ElytrA8/TESLA/workflows/FailedChecker/badge.svg?branch=TESLA)](https://github.com/MrRobot222/TESLA/actions "build")
 ![Spec](https://img.shields.io/badge/Made%20with-%E2%99%A5%EF%B8%8F-white)
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
@@ -32,7 +32,7 @@ Deploy to Heroku:
 
 ## Groups and support
 
-if you want new features, or announcements, you can follow our [TESLA](https://t.me/PROJECT_TESLA) Group.
+if you want new features, or announcements, you can follow our [TESLA](https://t.me/reborn_tesla) Group.
 
 
 
@@ -46,13 +46,13 @@ Thanks for all :
 * [Mr.Miss](https://github.com/keselekpermen69) - Userbutt
 * [Mkaraniya](https://github.com/mkaraniya) - OpenUserBot
 * [DevPatel](https://github.com/Devp73) - UserBot1
+* [ElytrA8](https://github.com/ElytrA8) - TESLA
 
-and many more people who aren't mentioned here, but may be found in [Contributors](https://github.com/ElytrA8/TESLA/graphs/contributors).
-
+I can't mention everyone here, there a lot of guys behind this work and I thank everyone.
 ## License
 
-This userbot licensed on [Raphielscape Public License](https://github.com/ElytrA8/TESLA/blob/TESLA/LICENSE) - Version 1.d, February 2020
+This userbot licensed on [Raphielscape Public License](https://github.com/MrRobot222/TESLA/blol/master/LICENSE) - Version 1.d, February 2020
 
-Every graphics of this bot is copyrighted by ElytrA8 ,
+Every graphics of this bot is copyrighted by Joker Hacker ,
 
-ElytrA8 is also a copyrighted term.
+Joker Hacker is also a copyrighted term.
