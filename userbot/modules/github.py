@@ -41,7 +41,7 @@ async def github(event):
                 f"URL: {url}\n"
                 f"Company: `{company}`\n"
                 f"Created at: `{created_at}`\n"
-                f"More info : '[Here](https://api.github.com/users/{username}/events/public)'\n"
+                f"More info : [Here](https://api.github.com/users/{username}/events/public)\n"
                 f"Avatar URL : {avatar_url} ")
 
             if not result.get("repos_url", None):
