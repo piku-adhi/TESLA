@@ -88,8 +88,12 @@ async def type_afk_is_not_true(notafk):
     global afk_time  # pylint:disable=E0602
     global afk_start
     global afk_end
+    COUNT_MSG = 0
+    USERS = {}
+    AFKREASON = None
     back_alive = datetime.now()
     afk_end = back_alive.replace(microsecond=0)
+    
     if ISAFK:
         ISAFK = False
         msg = await notafk.respond("I'm no longer AFK.")
@@ -109,9 +113,7 @@ async def type_afk_is_not_true(notafk):
                     "[" + name0 + "](tg://user?id=" + str(i) + ")" +
                     " sent you " + "`" + str(USERS[i]) + " messages`",
                 )
-        COUNT_MSG = 0
-        USERS = {}
-        AFKREASON = None
+        
 
 
 @register(incoming=True, disable_edited=True)
