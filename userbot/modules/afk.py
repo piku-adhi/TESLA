@@ -5,9 +5,10 @@ import time
 
 from random import choice, randint
 
-from telethon.events import StopPropagation, register
+from telethon.events import StopPropagation
 
 from userbot import (AFKREASON, CMD_HELP, BOTLOG, BOTLOG_CHATID, PM_AUTO_BAN)
+from userbot.events import register
 
 AFKSTR = [
     "I'm busy right now. Please talk in a bag and when I come back you can just give me the bag!",
@@ -43,8 +44,12 @@ USER_AFK = {}
 afk_time = None
 afk_start = {}
 
+<<<<<<< HEAD
 
 @register(outgoing=True, pattern="^.afk(?: |$)(.*)", disable_errors=True)
+=======
+@register(Outgoing=True, pattern="^.afk(?: |$)(.*)", disable_errors=True)
+>>>>>>> 1855cdd (minor changes)
 async def set_afk(afk_e):
     """ For .afk command, allows you to inform people that you are afk when they message you """
     afk_e.text
