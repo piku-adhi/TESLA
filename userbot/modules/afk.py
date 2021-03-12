@@ -44,6 +44,7 @@ USER_AFK = {}
 afk_time = None
 afk_start = {}
 
+<<<<<<< HEAD
 << << << < HEAD
 
 
@@ -55,6 +56,9 @@ afk_start = {}
 >>>>>> > 1855cdd(minor changes)
 
 
+=======
+@register(Outgoing=True, pattern="^.afk(?: |$)(.*)", disable_errors=True)
+>>>>>>> 1855cdd (minor changes)
 async def set_afk(afk_e):
     """ For .afk command, allows you to inform people that you are afk when they message you """
     afk_e.text
