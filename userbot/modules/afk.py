@@ -1,11 +1,9 @@
 """ Uerbot module which contains afk-related commands"""
 
 from datetime import datetime
-from logging import disable
 import time
 
 from random import choice, randint
-from typing import Pattern
 
 from telethon.events import StopPropagation, register
 
@@ -37,13 +35,14 @@ AFKSTR = [
     "I am not here right now...\nbut if I was...\n\nwouldn't that be awesome?",
 ]
 
-global USER_AFK 
+global USER_AFK
 global afk_time
 global afk_start
 global afk_end
 USER_AFK = {}
 afk_time = None
 afk_start = {}
+
 
 @register(outgoing=True, pattern="^.afk(?: |$)(.*)", disable_errors=True)
 async def set_afk(afk_e):
