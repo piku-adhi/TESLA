@@ -29,8 +29,8 @@ for module_name in ALL_MODULES:
 LOGS.info("You are running TESLA [v1.0]")
 
 LOGS.info(
-    "Congratulations, your userbot is now running !! Test it by typing .alive / .on in any chat."
-    "If you need assistance, head to https://t.me/PROJECT_TESLA_FORKED")
+    "Congratulations, your userbot is now running Sussesfully !! Test it by typing .ping / .on in any chat."
+    "If you need assistance, join @reborn_tesla")
 
 if len(argv) not in (1, 3, 4):
     bot.disconnect()
