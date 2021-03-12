@@ -1,8 +1,7 @@
 <div align="center">TESLA REBORN ©</div>
 
 ![LOGO](logo.gif)
-[![Build](https://github.com/ElytrA8/TESLA/workflows/FailedChecker/badge.svg?branch=TESLA)](https://github.com/MrRobot222/TESLA/actions "build")
-![Spec](https://img.shields.io/badge/Made%20with-%E2%99%A5%EF%B8%8F-white)
+
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
 
